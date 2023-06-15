@@ -297,10 +297,11 @@ def main():
                 user_stats(df)
 
                 check_stats = input('\nWould you like to continue checking stats?\n \nYES -> continue checking stats \nNO -> go to main menu \n(Press any other key to quit) \n\n Enter your choice: ')
-                if check_stats.lower() != 'yes' and check_stats.lower() != 'no':
-                    quit()
-                elif check_stats.lower() == 'no':
+                if check_stats.lower() == 'no':
                     main()
+                elif check_stats.lower() != 'yes' and check_stats.lower() != 'no':
+                    quit()
+
         else:
             quit()
             

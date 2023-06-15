@@ -257,7 +257,7 @@ def main():
 
    while True:
     
-        option=input('\n\n****************************************MAIN MENU****************************************n\n1- See raw data. \n2- View stats after filtering the records. \n...Press any other key to quit\n\nEnter your choice: ')
+        option=input('\n\n****************************************\nMAIN MENU\n****************************************n\n1- See raw data. \n2- View stats after filtering the records. \n...Press any other key to quit\n\nEnter your choice: ')
         
         # Prompt the user to see raw data
         if option=='1':
@@ -299,10 +299,11 @@ def main():
                 user_stats(df)
 
                 check_stats = input('\nWould you like to continue checking stats?\n \nYES -> continue checking stats \nNO -> go to main menu \n(Press any other key to quit) \n\n Enter your choice: ')
-                if check_stats.lower() != 'yes' and check_stats.lower() != 'no':
-                    quit()
-                elif check_stats.lower() == 'no':
+                if check_stats.lower() == 'no':
                     main()
+                elif check_stats.lower() != 'yes' and check_stats.lower() != 'no':
+                    quit()
+
         else:
             quit()
             

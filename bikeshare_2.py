@@ -255,7 +255,7 @@ def main():
 
    while True:
     
-        option=input('\n\n****************************************MAIN MENU****************************************n\n1- See raw data. \n2- View stats after filtering the records. \n...Press any other key to quit\n\nEnter your choice: ')
+        option=input('\n\n****************************************\nMAIN MENU\n****************************************n\n1- See raw data. \n2- View stats after filtering the records. \n...Press any other key to quit\n\nEnter your choice: ')
         
         # Prompt the user to see raw data
         if option=='1':

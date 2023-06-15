@@ -1,6 +1,8 @@
 """
 Submitted by: Annabel Wei
 Date: 15th June, 2023
+
+The file contains the code for the project Bike Share Data. In this project, we have used data of a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. We compared the system usage between three large cities: Chicago, New York City, and Washington, DC  by finding different stats. 
 """
 
 import time
